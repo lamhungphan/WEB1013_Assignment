@@ -1,0 +1,59 @@
+.advertising {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.slider {
+    justify-content: center;
+}
+
+.left-ad {
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+
+.left-ad img {
+    width: 80%;
+    height: 100%;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation: fade;
+    animation-duration: 1.1s;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-size: 2rem;
+    padding: 5px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 14%;
+}
+
+.next {
+    right: 14%;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

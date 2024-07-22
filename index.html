@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/header_and_footer.css">
+    <link rel="stylesheet" href="./assets/css/img-slider.css">
     <script src="https://kit.fontawesome.com/895c5ecb21.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/index.js"></script>
+
 </head>
 
 <body>
@@ -47,15 +49,18 @@
             </nav>
         </div>
         <div class="center">
-            <div class="advertising">
-                <div class="left-ad">
-                    <img src="https://samcenter.vn/images/uploaded/banner/2024/thang_6/tongdpc.png" alt="">
+                <div class="slider">
+                    <div class="left-ad">
+                        <img class="slide" src="https://samcenter.vn/images/uploaded/banner/2024/thang_6/tongdpc.png"
+                            alt="">
+                        <img class="slide" src="https://samcenter.vn/images/uploaded/banner/2024/Banner%20webFF.png"
+                            alt="">
+                        <img class="slide" src="https://samcenter.vn/images/uploaded/banner/2024/thang_6/s24pc.png"
+                            alt="">
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094</button>
+                    <button class="next" onclick="nextSlide()">&#10095</button>
                 </div>
-                <div class="right-ad">
-                    <img src="https://samcenter.vn/images/uploaded/banner/2024/thang_6/tab%20s9%20tow.png" alt="">
-                    <img src="https://samcenter.vn/images/uploaded/banner/2024/thang_6/w6pc.png" alt="">
-                </div>
-            </div>
             <div class="galaxyPhone">
                 <div class="top-frame">
                     <div class="category">
@@ -278,5 +283,7 @@
         })()
     }
 </script>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/img-slider.js"></script>
 
 </html>
