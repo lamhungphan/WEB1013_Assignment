@@ -108,7 +108,27 @@ body {
 .nav-right>ul>li>i {
     padding-top: 20px;
     color: #f4f4f4;
+    font-size: large;
     margin: 0 5px;
+}
+
+#cart {
+    position: relative;
+}
+
+.nav-right>ul>li>span {
+    background-color: rgb(207, 58, 58);
+    border-radius: 50%;
+    color: #f4f4f4;
+    font-size: 0.8em;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -56%;
+    right: -20px;
 }
 
 .nav-right>ul>li>i:hover {

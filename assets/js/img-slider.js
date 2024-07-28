@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", initializeSlider);
 function initializeSlider() {
     if (slides.length > 0) {
         slides[slideIndex].classList.add("displaySlide");
-        intervalId = setInterval(nextSlide, 8000);
+        // intervalId = setInterval(nextSlide, 8000);
     }
 }
 
